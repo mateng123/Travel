@@ -20,10 +20,10 @@ export default {
       },
       swiperList: [{
         id: '0001',
-        imgUrl: 'https://dimg04.c-ctrip.com/images/zg0t1800000152y0m2769.jpg'
+        imgUrl: 'https://imgs.qunarzz.com/vc/de/3d/1c/2ea7755853fef62ce549153026.jpg_92.jpg'
       }, {
         id: '0002',
-        imgUrl: 'https://dimg04.c-ctrip.com/images/zg0j170000011chb42B7F.jpg'
+        imgUrl: 'https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/abe3418971067bd655fb2794d6e2eeec.jpg'
       }]
     }
   }
