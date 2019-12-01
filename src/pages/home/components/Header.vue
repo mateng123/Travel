@@ -7,10 +7,12 @@
             <span class="iconfont">&#xe70a;</span>
             输入城市
         </div>
-        <div class="header-right">
-            城市
-            <span class="iconfont arrow-icon">&#xe64a;</span>
-        </div>
+        <router-link to='/city'>
+            <div class="header-right">
+                城市
+                <span class="iconfont arrow-icon">&#xe64a;</span>
+            </div>
+        </router-link>
     </div>
 </template>
 
@@ -27,12 +29,15 @@ export default {
         line-height: $headerHeight
         background: $bgColor
         color: #fff
+
         .header-left
             width: .64rem
             float: left
+
             .back-icon
                 text-align: center
                 font-size: .4rem
+
         .header-input
             flex: 1
             height: .64rem
@@ -43,12 +48,14 @@ export default {
             background: #fff
             border-radius: .1rem
             color: #ccc
+
         .header-right
             min-width: 1.04rem
             padding: 0 .1rem
             float: right
             text-align: center
             color: #fff
+
             .arrow-icon
                 margin-left: -.04rem
                 font-size: .24rem
